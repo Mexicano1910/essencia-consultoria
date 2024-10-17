@@ -329,6 +329,9 @@ h1 {
 }
 
 .links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   background-color: #4b235b;
   width: 280px;
   text-align: center;
@@ -338,6 +341,10 @@ h1 {
   padding: 21.5px 0;
   text-decoration: none;
   color: #f7f3f8;
+}
+
+.links:hover {
+  background-color: #5c415d;
 }
 
 /* Responsividade para telas menores */
