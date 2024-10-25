@@ -449,15 +449,13 @@ h1 {
   }
 
   .cabecalho__1 {
-    max-width: auto;
+    max-width: 1300px;
     margin: auto;
     font-size: 17px;
   }
 
   .img__titulo {
-    display: 20px;
-    align-items: center;
-    justify-content: center;
+   display: none;
   }
   
   .titulo__1 {
@@ -477,9 +475,16 @@ h1 {
 
 
   .btn__contato button {
-    width: 70px;
-    height: 25px;    
-    font-size: 14px;
+    padding: 12px;
+    width: 100%;  
+    font-size: 16px;
+  }
+
+  .botoes {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
   }
 
   .container__1, .container__equipe, .container__2, .container__3, .container__4, .container__5, .container__6, .container__7 {
@@ -488,7 +493,12 @@ h1 {
     box-shadow:none
   }
 
-  .titulo__equipe, .titulo__equipe-1, .titulo__2, .titulo__3, .titulo__4, .titulo__5, .titulo__6, .titulo__7 {
+
+  .titulo__6 {
+    font-size: 30px;
+  }
+
+  .titulo__equipe, .titulo__equipe-1, .titulo__2, .titulo__3, .titulo__4, .titulo__5, .titulo__7 {
     font-size: 45px;
   }
 
@@ -502,7 +512,9 @@ h1 {
     font-size: 18px;
   }
 
-    
+  .grid__5 {
+    grid-template-columns: 0.8fr;
+  }  
   
   .grid__equipe, .grid__1, .grid__3, .grid__5 {
     grid-template-columns: 1fr;
