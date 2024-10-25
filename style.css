@@ -447,15 +447,26 @@ h1 {
   .cabecalho__1 {
     font-size: 14px;
   }
+
+  .img__titulo,.imagem__2  {
+    display: none;
+  }
   
   .titulo__1 {
     font-size: 28px;
   }
-  
-  .img-essencia {
-    width: 50px;
-    height: 35px;
+
+  .essencia {
+    display: none;
   }
+
+  header li {
+    display: flex;
+    align-items: center;
+    justify-content: row;
+    margin: 0 40px;
+  }
+
 
   .btn__contato button {
     width: 100px;
