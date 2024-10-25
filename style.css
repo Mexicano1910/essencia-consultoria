@@ -444,14 +444,18 @@ h1 {
 
 /*responsavel para telas menores (2) */
 @media (max-width: 768px) {
-  .cabecalho__1 {
-    font-size: 14px;
+  .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
   }
 
   .cabecalho__1 {
     max-width: 1300px;
     margin: auto;
-    font-size: 17px;
+    font-size: 14px;
+
   }
 
   .img__titulo {
@@ -506,14 +510,16 @@ h1 {
     font-size: 24px;
   }
 
-    
-  
+.h2__propostas, .h2__filosofia {
+  font-size: 20px;
+}
+
   .p__equipe, .p__filosofia, .p__propostas, .paragrafo__6, .paragrafo__4, .paragrafo_7_1 {
     font-size: 18px;
   }
 
   .grid__5 {
-    grid-template-columns: 0.8fr;
+    grid-template-columns: 0.5fr;
   }  
   
   .grid__equipe, .grid__1, .grid__3 {
