@@ -449,7 +449,7 @@ h1 {
   }
 
   .cabecalho__1 {
-    max-width: 500px;
+    max-width: auto;
     margin: auto;
     font-size: 17px;
   }
