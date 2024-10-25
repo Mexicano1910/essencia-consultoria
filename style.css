@@ -516,7 +516,7 @@ h1 {
     grid-template-columns: 0.8fr;
   }  
   
-  .grid__equipe, .grid__1, .grid__3, .grid__5 {
+  .grid__equipe, .grid__1, .grid__3 {
     grid-template-columns: 1fr;
   }
 
