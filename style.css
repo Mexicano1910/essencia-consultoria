@@ -194,6 +194,12 @@ header ul li a {
   height: 100px;
 }
 
+.img-essencia__equipe__vic {
+  width: 110px;
+height: 100px;
+border-radius: 50px;
+}
+
 .container__2 {
   margin: 250px auto;
   display: flex;
