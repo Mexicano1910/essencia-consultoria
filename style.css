@@ -442,33 +442,60 @@ h1 {
   background-color: var(--cor-terciaria);
 }
 
-/* Responsividade para telas menores */
+/*responsavel para telas menores (2) */
 @media (max-width: 768px) {
-  .essencia {
-    display: none;
+  .cabecalho__1 {
+    font-size: 14px;
+  }
+  
+  .titulo__1 {
+    font-size: 28px;
+  }
+  
+  .img-essencia {
+    width: 50px;
+    height: 35px;
   }
 
-  .box__1 {
-    display: none;
+  .btn__contato button {
+    width: 100px;
+    height: 35px;    
+    font-size: 14px;
   }
 
-  .grid_1, .grid3, .grid_5 {
+  .container__1, .container__equipe, .container__2, .container__3, .container__4, .container__5, .container__6, .container__7 {
+    margin: 50px auto;
+    padding: 15px;
+  }
+
+  .titulo__equipe, .titulo__equipe-1, .titulo__2, .titulo__3, .titulo__4, .titulo__5, .titulo__6, .titulo__7 {
+    font-size: 45px;
+  }
+
+  .h3__equipe, .h3__frase, .h3__frase-1 {
+    font-size: 24px;
+  }
+
+    
+  
+  .p__equipe, .p__filosofia, .p__propostas, .paragrafo__6, .paragrafo__4, .paragrafo_7_1 {
+    font-size: 18px;
+  }
+
+    
+  
+  .grid__equipe, .grid__1, .grid__3, .grid__5 {
     grid-template-columns: 1fr;
   }
 
-  .container__2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .img-essencia__equipe {
+    width: 90px;
+    height: 75px;
   }
-
-  .botoes {
-    flex-direction: column;
-    gap: 20px;
-  }
-
+  
   .imagem__2 {
     width: 100%;
-    height: auto;
+    height:auto;
   }
+
 }
