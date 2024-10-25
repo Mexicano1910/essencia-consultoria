@@ -448,8 +448,14 @@ h1 {
     font-size: 14px;
   }
 
-  .img__titulo,.imagem__2  {
-    display: none;
+  .cabecalho__1 {
+    max-width: 900px;
+    margin: auto;
+    font-size: 17px;
+  }
+
+  .img__titulo {
+    display: 20px;
   }
   
   .titulo__1 {
@@ -469,14 +475,15 @@ h1 {
 
 
   .btn__contato button {
-    width: 100px;
-    height: 35px;    
+    width: 70px;
+    height: 25px;    
     font-size: 14px;
   }
 
   .container__1, .container__equipe, .container__2, .container__3, .container__4, .container__5, .container__6, .container__7 {
     margin: 50px auto;
     padding: 15px;
+    box-shadow:none
   }
 
   .titulo__equipe, .titulo__equipe-1, .titulo__2, .titulo__3, .titulo__4, .titulo__5, .titulo__6, .titulo__7 {
@@ -505,8 +512,15 @@ h1 {
   }
   
   .imagem__2 {
+    display: none;
     width: 100%;
     height:auto;
+    
+  }
+
+  .img-botao {
+    width: 30px;
+    height: 25px;
   }
 
 }
