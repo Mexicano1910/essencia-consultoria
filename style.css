@@ -449,13 +449,15 @@ h1 {
   }
 
   .cabecalho__1 {
-    max-width: 900px;
+    max-width: 500px;
     margin: auto;
     font-size: 17px;
   }
 
   .img__titulo {
     display: 20px;
+    align-items: center;
+    justify-content: center;
   }
   
   .titulo__1 {
