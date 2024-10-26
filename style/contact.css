@@ -261,10 +261,11 @@ header ul li a {
     top: 0;
     left: 0;
     transition: 0.5s;
+    grid-template-columns: 1fr;
   }
 
   .cabecalho__1 {
-    max-width: 768px;
+    max-width: 1300px;
     margin: auto;
     font-size: 14px;
   }
