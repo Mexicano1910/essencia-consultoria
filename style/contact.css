@@ -138,7 +138,7 @@ body {
   justify-content: space-between;
 }
 
-.cabecalho {
+.cabecalho__contato {
   width: 100%;
   padding: 8px 4%;
   background-color: var(--cor-quartenaria);
@@ -214,6 +214,48 @@ header ul li a {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 20px;
+    align-items: flex-start;
+  }
+
+  .container__contato {
+    margin: 30px 0;
+    width: 100%;
+    box-shadow: 0 2px 6px var(--cor--sextenaria);
+  }
+
+  .header {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .h2__contatos {
+    font-size: 20px;
+  }
+
+  .form {
+    padding: 15px;
+  }
+
+  .form-control label {
+    font-size: 15px;
+  }
+
+  .form-control input {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .form-control button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .form-control small {
+    font-size: 12px;
+  }
+
   .cabecalho {
     position: fixed;
     top: 0;
