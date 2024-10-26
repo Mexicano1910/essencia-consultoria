@@ -222,7 +222,7 @@ header ul li a {
   .container {
     margin: 20px 0;
     width: 100%;
-    box-shadow: 0 2px 6px var(--cor-sextenaria);
+    box-shadow: 0 2px 6px var(--cor--sextenaria);
   }
 
   .header {
@@ -258,12 +258,16 @@ header ul li a {
   }
 
   .cabecalho__1 {
-    font-size: 15px;
-    padding: 10px;
+    max-width: 1300px;
+    margin: auto;
+    font-size: 14px;
   }
 
-  .cabecalho__contato {
-    padding: 8px 5%;
+  .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
   }
 
   .flex {
