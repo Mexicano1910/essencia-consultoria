@@ -214,11 +214,6 @@ header ul li a {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 10px;
-    align-items: flex-start;
-  }
-
   .container {
     margin: 20px 0;
     width: 100%;
