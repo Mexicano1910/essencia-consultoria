@@ -273,7 +273,7 @@ header ul li a {
   }
 
   header li {
-    display: block;
+    display: inline-block;
     margin: 10px 0;
   }
 
