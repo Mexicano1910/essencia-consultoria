@@ -26,7 +26,7 @@
 .cabecalho__1 {
   max-width: 1200px;
   margin: auto;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .flex {
@@ -51,7 +51,7 @@ header.rolagem {
 
 header.rolagem a {
   color: var(--cor--sextenaria);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-family: var(--font-sucundaria);
 }
 
@@ -70,7 +70,7 @@ header li {
 }
 
 header ul li a {
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-family: var(--font-sucundaria);
   color: var(--cor--sextenaria);
   text-decoration: none;
@@ -79,7 +79,7 @@ header ul li a {
 .btn__contato button {
   width: 120px;
   height: 40px;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-family: var(--font-sucundaria);
   border: 0;
   background-color: var(--cor-terciaria);
@@ -102,7 +102,7 @@ header ul li a {
 
 .titulo__1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   margin-bottom: 0px;
   padding: 20px;
@@ -131,7 +131,7 @@ header ul li a {
 
 .titulo__equipe {
   text-align: center;
-  font-size: 65px;
+  font-size: 4.0625rem;
   font-family: var(--font-primaria);
   margin-bottom: 40px;
   color: var(--cor-primaria);
@@ -139,36 +139,36 @@ header ul li a {
 
 .titulo__equipe-1 {
   text-align: center;
-  font-size: 73px;
+  font-size: 4.5625rem;
   font-family: var(--font-primaria);
-  margin-bottom: 40px;
+  margin-bottom: 7.5625rem;
   color: var(--cor-primaria);
 }
 
 .h3__equipe {
   padding: 8px;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: var(--font-primaria);
   color: var(--cor-primaria);
 }
 
 .h3__frase {
   padding: 8px;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: var(--font-primaria);
   color: var(--cor-primaria);
 }
 
 .h3__frase-1 {
   padding: 8px;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: var(--font-primaria);
   color: var(--cor-primaria);
   color: var(--cor-secundaria);
 }
 
 .p__equipe {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: var(--font-sucundaria);
   color: var(--cor-primaria);
 }
@@ -215,13 +215,13 @@ header ul li a {
 }
 
 .titulo__2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   color: var(--cor-primaria);
 }
 
 .paragrafo__2 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: var(--font-sucundaria);
   padding: 20px;
   color: var(--cor-primaria);
@@ -245,7 +245,7 @@ h1 {
 
 .titulo__3 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   margin-bottom: 40px;
   color: var(--cor-primaria);
@@ -253,13 +253,13 @@ h1 {
 
 .h2__filosofia {
   padding: 8px;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: var(--font-primaria);
   color: var(--cor-primaria);
 }
 
 .p__filosofia {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: var(--font-sucundaria);
   color: var(--cor-primaria);
 }
@@ -279,14 +279,14 @@ h1 {
 }
 
 .box h2 {
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-bottom: 15px;
   color: var(--cor-primaria);
   padding: 20px;
 }
 
 .box p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--cor-primaria);
   padding: 20px;
 }
@@ -304,14 +304,14 @@ h1 {
 
 .titulo__4 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   margin-bottom: 40px;
   color: var(--cor-primaria);
 }
 
 .paragrafo__4 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: var(--cor-primaria);
   padding: 20px;
   color: var(--cor-primaria);
@@ -326,7 +326,7 @@ h1 {
 
 .titulo__5 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   margin-bottom: 40px;
   color: var(--cor-primaria);
@@ -348,26 +348,26 @@ h1 {
 
 .h2__propostas {
   padding: 8px;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: var(--font-primaria);
   color: var(--cor-primaria);
 }
 
 .p__propostas {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: var(--font-sucundaria);
   color: var(--cor-primaria);
 }
 
 .box h2 {
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-bottom: 15px;
   color: var(--cor-primaria);
   padding: 20px;
 }
 
 .box p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--cor-primaria);
   padding: 20px;
 }
@@ -385,14 +385,14 @@ h1 {
 
 .titulo__6 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   margin-bottom: 40px;
   color: var(--cor-primaria);
 }
 
 .paragrafo__6 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: var(--font-sucundaria);
   padding: 20px;
   color: var(--cor-primaria);
@@ -407,7 +407,7 @@ h1 {
 
 .titulo__7 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
   margin-bottom: 40px;
   color: var(--cor-primaria);
@@ -415,7 +415,7 @@ h1 {
 
 .paragrafo_7_1 {
   text-align: center;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: var(--font-primaria);
   padding: 20px;
   color: var(--cor-primaria);
@@ -434,7 +434,7 @@ h1 {
   width: 280px;
   text-align: center;
   border-radius: 16px;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--font-sucundaria);
   padding: 21.5px 0;
@@ -458,7 +458,7 @@ h1 {
   .cabecalho__1 {
     max-width: 1300px;
     margin: auto;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .img__titulo {
@@ -466,7 +466,7 @@ h1 {
   }
 
   .titulo__1 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .essencia {
@@ -483,7 +483,7 @@ h1 {
   .btn__contato button {
     padding: 12px;
     width: 100%;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .botoes {
@@ -507,7 +507,7 @@ h1 {
   }
 
   .titulo__6 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .titulo__equipe,
@@ -517,18 +517,18 @@ h1 {
   .titulo__4,
   .titulo__5,
   .titulo__7 {
-    font-size: 45px;
+    font-size: 2.8125rem;
   }
 
   .h3__equipe,
   .h3__frase,
   .h3__frase-1 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .h2__propostas,
   .h2__filosofia {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   .p__equipe,
@@ -537,7 +537,7 @@ h1 {
   .paragrafo__6,
   .paragrafo__4,
   .paragrafo_7_1 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .grid__5 {
